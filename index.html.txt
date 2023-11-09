@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone Number Generator</title>
+</head>
+<body>
+  <h1>Phone Number Generator</h1>
+  
+  <h2><a href="us-phone-number-generator">US Phone Number Generator</a></h2>
+  <p>Generate random phone numbers for the United States.</p>
+  <button><a href="us-phone-number-generator">US Phone Number Generator</a></button>
+
+  <h2><a href="china-phone-number-generator">China Phone Number Generator</a></h2>
+  <p>Generate random phone numbers for China.</p>
+  <button><a href="china-phone-number-generator">China Phone Number Generator</a></button>
+
+  <!-- Add more countries here -->
+
+</body>
+</html>
+
+css
+/* Reset default styles */
+html, body, h1, h2, p, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
